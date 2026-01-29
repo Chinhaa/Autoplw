@@ -5,4 +5,5 @@ with sync_playwright() as playwright:
 
     page = browser.new_page()
     page.goto('https://www.youtube.com/watch?v=MfISy9zei90')
+    page.goto('https://www.facebook.com/playwrightvietnam')
     page.wait_for_timeout(10_000)
